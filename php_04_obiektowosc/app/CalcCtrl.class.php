@@ -83,7 +83,7 @@ class CalcCtrl {
         global $config;
     
         $smarty = new Smarty();
-        $smarty->assign('config', $config); // Poprawiona linia
+        $smarty->assign('config', $config);
     
         $smarty->assign('page_title', 'Zadanie nr 04');
         $smarty->assign('page_description', 'Obiektowosc');
